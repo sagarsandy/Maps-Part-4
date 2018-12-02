@@ -122,6 +122,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         } else {
             print("something went wrong")
         }
+        
+        if status == .denied {
+            print("dude, this is not correct")
+        }
     }
     
 }
